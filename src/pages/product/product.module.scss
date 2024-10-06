@@ -1,0 +1,22 @@
+.product_block {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  color: #11142d;
+}
+.subtitle {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--primary);
+}
+.text_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
