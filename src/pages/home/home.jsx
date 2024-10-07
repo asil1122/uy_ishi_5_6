@@ -7,7 +7,7 @@ import { Audiobooks } from "../../components/audio/audio";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Hero />
       <Service />
       <Category />

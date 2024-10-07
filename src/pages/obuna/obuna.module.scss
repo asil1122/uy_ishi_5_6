@@ -1,0 +1,110 @@
+.obuna_block {
+    background-color: #FF7F4D;
+    width: 100%;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 123%;
+    color: var(--white);
+    width: 331px;
+}
+
+.bottom_block {
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    background-color: var(--white);
+    margin-top: 24px;
+    padding: 32px 51px 121px 32px;
+}
+
+.bottom_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 133%;
+    color: #11142d;
+    margin-bottom: 30px;
+}
+
+.bottom_obuna_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+    margin-bottom: 6px;
+}
+
+.input {
+    border: 1px solid var(--stroke);
+    border-radius: 16px;
+    padding: 10px 12px;
+    width: 343px;
+    background-color: var(--white);
+    margin-bottom: 24px;
+}
+
+.obuna_text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #11142d;
+}
+
+.ul {
+    background-color: var(--gray);
+    padding: 16px 9px 27px 15px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+    gap: 147px;
+    margin-bottom: 16px;
+}
+
+.des {
+    width: 123px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+}
+
+.date {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--text);
+}
+
+.price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color: var(--primary);
+}
+
+.button {
+    border-radius: 14px;
+    padding: 7px 8px;
+    background-color: var(--primary);
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    margin-top: 34px;
+}

@@ -37,6 +37,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 :root {
   --text: #242424;
   --primary: #3f51b5;
@@ -64,6 +65,7 @@ body {
   overflow-x: hidden;
   font-family: "Cairo", sans-serif;
   margin: 0;
+  background-color: #FBFBFB;
 }
 
 .container {
@@ -72,4 +74,36 @@ body {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.profile_wrap {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 5fr;
+  gap: 36px;
+}
+
+.profile_category_block {
+  border-radius: 4px;
+  height: 345px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  background-color: var(--white);
+  padding: 24px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 222%;
+  color: var(--text);
+  margin-bottom: 7px;
+}
+
+.layout {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.home{
+  background-color: #fff;
 }
